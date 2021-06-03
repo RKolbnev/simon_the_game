@@ -14,8 +14,8 @@
 отображаться для пользователя).
 - С каждым раундом количество кнопок (последовательность) увеличивается.
 
-[Дополнительная информация об игре](https://en.wikipedia.org/wiki/Simon_(game))
-[Пример игры в действии](http://www.kellyking.me/projects/simon/)
+- [Дополнительная информация об игре](https://en.wikipedia.org/wiki/Simon_(game))
+- [Пример игры в действии](http://www.kellyking.me/projects/simon/)
 
 ***
 ## Функциональность
