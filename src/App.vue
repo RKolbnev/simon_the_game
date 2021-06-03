@@ -66,7 +66,6 @@ export default {
       }, 200)
       if (this.inGame) {
         clearTimeout(this.timeoutID)
-        console.log('destroy timer')
         this.userList.push(id)
         this.checkUserList(this.userList.length - 1)
       }
@@ -97,7 +96,6 @@ export default {
       setTimeout(() => {
         this.inGame = true
         this.buttonText = 'Повторите'
-        console.log('start timer from play')
         this.timer()
       }, this.orderList.length * 700)
     },
@@ -112,7 +110,6 @@ export default {
           this.step()
         }, 1000)
       } else {
-        console.log('start timer from check')
         this.timer()
       }
     },
@@ -123,9 +120,8 @@ export default {
         this.buttonText = 'Старт'
       }, 1000)
       clearTimeout(this.timeoutID)
+      this.round = 0
       this.inGame = false
-      console.log(this.orderList)
-      console.log(this.userList)
       this.userList = []
       this.orderList = []
     },
